@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Object Changer Video App
 
-# Run and deploy your AI Studio app
+## Overview
+A web-based application that enables object replacement in video using AI-powered image generation workflows.
 
-This contains everything you need to run your app locally.
+## Features
+- Interactive React-based frontend
+- Real-time preview and rendering flow
+- AI-powered object replacement logic
+- Modular service layer for AI integrations
 
-View your app in AI Studio: https://ai.studio/apps/drive/1GxgSe96pCVloHaouFnEbc7HhzTuxCO9j
+## Tech Stack
+- React + TypeScript (Vite)
+- Node.js
+- Google Generative AI SDK
+- AWS Amplify (Hosting & CI/CD)
+- GitHub (Version Control)
 
-## Run Locally
+## Architecture
+- Local development with Vite
+- Source control via GitHub
+- Continuous deployment using AWS Amplify
+- Environment variables managed securely outside source control
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deployment
+The application is deployed on AWS Amplify.
+Every commit to the main branch triggers an automatic build and redeploy.
