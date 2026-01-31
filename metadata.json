@@ -1,0 +1,8 @@
+
+{
+  "name": "RNS Studio: Cinematic Car Swapper",
+  "description": "An AI-powered video editor that analyzes cinematic footage and uses advanced neural rendering to replace vehicles while preserving the environment and emotional context.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
